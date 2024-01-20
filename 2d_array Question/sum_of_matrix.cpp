@@ -1,0 +1,29 @@
+// Sum of elements in a matrix
+// GFG
+// Input:
+// N=2,M=3
+// Grid=
+// [[1,0,1],
+// [-8,9,-2]]
+// Output:
+// 1
+// Explanation:
+// The sum of all elements of the matrix is
+// (1+0+1-8+9-2)=1.
+
+class Solution
+{
+public:
+    int sumOfMatrix(int N, int M, vector<vector<int>> Grid)
+    {
+        int sum = 0;
+        for (int i = 0; i < N; i++)
+        {
+            for (int j = 0; j < M; j++)
+            {
+                sum += Grid[i][j];
+            }
+        }
+        return sum;
+    }
+};
