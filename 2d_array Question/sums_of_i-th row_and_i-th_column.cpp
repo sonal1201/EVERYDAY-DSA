@@ -1,9 +1,9 @@
 // Sums of i-th row and i-th column
-/*
-  first calculate number of valid rows and colum u can traverse
-  calculate the sum of ith row and ith column and check they are equal or not,if they are not equal just return 0
-  if for all pairs, the sum of rows and colm are equal then return 1
-*/
+
+  // first calculate number of valid rows and colum u can traverse
+  // calculate the sum of ith row and ith column and check they are equal or not,if they are not equal just return 0
+  // if for all pairs, the sum of rows and colm are equal then return 1
+
 
 class Solution
 {
