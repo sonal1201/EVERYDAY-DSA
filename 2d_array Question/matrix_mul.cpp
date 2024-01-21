@@ -1,4 +1,3 @@
-//MATRIX MULTIPLICATION//
 
 #include <iostream>
 using namespace std;
