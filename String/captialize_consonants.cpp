@@ -21,7 +21,7 @@
 //     return 0;
 // }
 
-// TAKE WORD(STRING) INPUT FROM USER AND CAPTIALIZE ALL THE VOWELS -> A,E,I,O,U
+// TAKE WORD(STRING) INPUT FROM USER AND CAPTIALIZE ALL THE VOWELS -> A,E,I,O,U..
 
 #include <iostream>
 using namespace std;

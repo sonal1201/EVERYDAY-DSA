@@ -19,8 +19,10 @@ using namespace std;
 int main()
 {
     string str = "Sonal singh";
-    cout << str.size() << endl; // Size
-    cout << str.substr(0, 5);
+    cout << str.size() << endl;             // Size
+    cout << str.substr(0, 5) << endl;       // substr
+    cout << str.erase(0, 6) << endl;        // Erase
+    cout << str.insert(5, "Sonal") << endl; // Erase
 }
 
 // String Conc and Adding........
