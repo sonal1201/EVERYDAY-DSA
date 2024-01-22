@@ -22,7 +22,7 @@ int main()
     cout << str.size() << endl;             // Size
     cout << str.substr(0, 5) << endl;       // substr
     cout << str.erase(0, 6) << endl;        // Erase
-    cout << str.insert(5, "Sonal") << endl; // Erase
+    cout << str.insert(5, "Sonal") << endl; // Insert
 }
 
 // String Conc and Adding........
