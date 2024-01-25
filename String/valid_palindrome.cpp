@@ -24,9 +24,9 @@ public:
         {
             if (isalphaNum(s[i]))
             {
-                if (isupper(s[i]))
-                    s[i] = tolower(s[i]);
-                newstr.push_back(s[i]);
+                if (isupper(s[i]))        // it is checking the char is upper or not
+                    s[i] = tolower(s[i]); // it converting upper to lower
+                newstr.push_back(s[i]);   // it will push every alphanum char in newstr..
             }
         }
         string revstr = newstr;
