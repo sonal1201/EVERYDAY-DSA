@@ -14,16 +14,16 @@
 
 // SOME FUNCTION....
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    string str = "Sonal singh";
-    cout << str.size() << endl;             // Size
-    cout << str.substr(0, 5) << endl;       // substr
-    cout << str.erase(0, 6) << endl;        // Erase
-    cout << str.insert(5, "Sonal") << endl; // Insert
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string str = "Sonal singh";
+//     cout << str.size() << endl;             // Size
+//     cout << str.substr(0, 5) << endl;       // substr
+//     cout << str.erase(0, 6) << endl;        // Erase
+//     cout << str.insert(5, "Sonal") << endl; // Insert
+// }
 
 // String Conc and Adding........
 
@@ -38,3 +38,15 @@ int main()
 //     str1 += str2;
 //     cout << str1;
 // }
+
+// MULTIPE LINE INPUT......
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    string str;
+    getline(cin, str, '\0');
+    cout << str;
+    return 0;
+}
