@@ -11,7 +11,7 @@ public:
         {
             for (int j = 0; j < m - 1; j++)
             {
-                if (matrix[i][j] != matrix[i + 1][j + 1])
+                if (matrix[i][j] != matrix[i + 1][j + 1]) // we can aslo start row 0 and col 0 and then we can check matrix[i][j]!=matrix[i-1][j-1];
                 {
                     return false;
                 }
