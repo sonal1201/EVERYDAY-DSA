@@ -1,4 +1,4 @@
-// Special Positions in a Binary Matrix
+//LC-> Special Positions in a Binary Matrix
 
 // Input: mat = [[1,0,0],
 //  [0,1,0],
