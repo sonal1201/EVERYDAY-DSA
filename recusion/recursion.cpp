@@ -17,26 +17,46 @@
 //     print(i);
 // }
 
-// factorial
+// factorial using recusion
+
+// #include <iostream>
+// using namespace std;
+
+// void fact(int i, int n)
+// {
+//     n *= i;
+
+//     if (i == 5) //base case
+//     {
+//         cout << n;
+//         return;
+//     }
+//     fact(i + 1, n);
+// }
+
+// int main()
+// {
+//     int i = 1;
+//     int sum = 1;
+//     fact(i, sum);
+// }
+
+// Print the value  N to 1
 
 #include <iostream>
 using namespace std;
-
-void fact(int i, int n)
+void print(int n)
 {
-    n *= i;
-
-    if (i == 5)
+    cout << n << " ";
+    if (n == 1)
     {
-        cout << n;
         return;
     }
-    fact(i + 1, n);
+    print(n - 1);
 }
-
 int main()
 {
-    int i = 1;
-    int sum = 1;
-    fact(i, sum);
+    int n;
+    cin >> n;
+    print(n);
 }
