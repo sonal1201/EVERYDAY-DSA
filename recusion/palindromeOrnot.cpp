@@ -16,9 +16,9 @@ int main()
 {
     string s;
     cin >> s;
-    cout << check(s, 0, s.size() - 1);
-    // if (a)
-    //     cout << "Palindrome";
-    // else
-    //     cout << "Not a palindrome";
+    bool a = check(s, 0, s.size() - 1);
+    if (a)
+        cout << "Palindrome";
+    else
+        cout << "Not a palindrome";
 }
