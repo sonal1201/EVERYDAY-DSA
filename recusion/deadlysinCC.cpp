@@ -1,3 +1,5 @@
+// CODECHEF -> The Deadly Sin
+
 #include <bits/stdc++.h>
 using namespace std;
 int deadly(int m, int b)
