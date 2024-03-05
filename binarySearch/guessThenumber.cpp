@@ -10,6 +10,7 @@ You call a pre-defined API int guess(int num), which returns three possible resu
 **/
 
 // BINARY SEARCH
+// O(N)tc O(1)sc
 class Solution
 {
 public:
