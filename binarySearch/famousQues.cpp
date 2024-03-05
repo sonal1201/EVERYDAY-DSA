@@ -1,3 +1,5 @@
+// INVERSE OF INTEGER DIVISION....
+
 #include <iostream>
 using namespace std;
 int func(int x)
@@ -20,7 +22,7 @@ int main()
     while (s <= e)
     {
         int mid = s + (e - s) / 2;
-        int f_mid = func(mid);
+        int f_mid = func(mid); // THIS FUNCTION WILL CHECK START =MID+1 OR END = MID-1
         if (f_mid == n)
         {
             ans = mid;
