@@ -1,4 +1,6 @@
 // Queue Question
+//NUMBER USING ONLY 2,3 AND 5
+//FORMULA -> QU.TOP()*10+2,3,5
 
 #include <bits/stdc++.h>
 using namespace std;
