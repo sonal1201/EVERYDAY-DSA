@@ -6,6 +6,8 @@
 #include <vector>
 #include <stack>
 using namespace std;
+
+//FINDING NEXT SMALLER ELEMENT
 vector<int> nextSmaller(vector<int> &arr)
 {
     int n = arr.size();
@@ -20,6 +22,8 @@ vector<int> nextSmaller(vector<int> &arr)
     }
     return next;
 }
+
+//FINDING PREV SMALLER ELEMENT
 vector<int> prevSmaller(vector<int> &arr)
 {
     int n = arr.size();
