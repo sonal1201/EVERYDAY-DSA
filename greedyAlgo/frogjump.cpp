@@ -1,3 +1,7 @@
+// Qusetion - > Frog Jump given K
+
+// AP->> jump as much as u can
+
 #include <iostream>
 #include <vector>
 using namespace std;
